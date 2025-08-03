@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Welcome-Server
+
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/
+
+
+
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include: '*'
